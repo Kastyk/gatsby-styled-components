@@ -1,8 +1,14 @@
 import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../layout/Layout';
+import Button from '../components/Button/Button';
 
 const AboutPage = () => (
-  <div>
+  <Layout>
     <h1>Hello people, this is a about page</h1>
-  </div>
+    <Button as={Link} to="/">
+      Go back
+    </Button>
+  </Layout>
 );
 export default AboutPage;
