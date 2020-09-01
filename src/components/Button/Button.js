@@ -15,7 +15,7 @@ const Button = styled.button`
   transition: box-shadow 0.3s ease;
 
   /*Media queries przy pomocy theme*/
-  ${({ theme }) => theme.media.desktop} {
+  ${({ theme }) => theme.media.tablet} {
     background: ${({ theme }) => theme.colors.white};
   }
   :hover {
